@@ -7,7 +7,7 @@ st.set_page_config(page_title="Bao cao doanh thu", page_icon=":bar_chart:")
 
 
 def get_data_from_excel():
-    df = pd.read_excel(io = r"F:\Python\Giao diện tkinterr\ds2021.xlsx", 
+    df = pd.read_excel(io = "ds2021.xlsx", 
     engine="openpyxl", 
     sheet_name="sale",
     skiprows=3,
